@@ -1,0 +1,127 @@
+.weather-Setion{
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+ 
+}
+main{
+  background-color: #1e202b;
+}
+
+form.find-location button{
+  top: 5px;
+  right: 5px ;
+  bottom: 5px;
+}
+
+form.find-location input{
+  background-color: #1e202b !important;
+  border: none;
+}
+form.find-location input::placeholder{
+  color: white;
+  opacity: 50%;
+}
+
+.today.forecast , .after-tomorrow.forecast {
+  background-color: #2d303d ;
+}
+.today.forecast .forecast-header , .after-tomorrow.forecast .forecast-header {
+  background-color: #323544;
+}
+.today.forecast .forecast-body .degree  {
+  font-size: 5rem;
+}
+.today.forecast .forecast-body .degree .forecast-icon img {
+  width: 5rem;
+}
+
+.tomorrow.forecast {
+  background-color: #222530 ;
+}
+.tomorrow.forecast .forecast-header {
+  background-color: #262936;
+}
+.tomorrow.forecast .forecast-body .degree span , .after-tomorrow.forecast .forecast-body .degree span {
+  font-size: 1.5rem;
+}
+
+.navbar{
+  background-color: #222530 ;
+}
+.navbar .nav-left span{
+  font-size: 0.6rem;
+}
+.navbar ul li a{
+  padding: 8px 20px;
+} 
+
+.navbar ul li a:hover{
+  color: #0baddc !important;
+  border: solid 2px #0baddc; 
+  padding: 6px 18px;
+  border-radius: 2.5rem;
+}
+.navbar ul li a.active{
+  color: #0baddc !important;
+  border: solid 2px #0baddc ;
+  padding: 6px 18px ;
+  border-radius: 2.5rem;
+}
+.inputss input::placeholder{
+  color: white!important;
+  opacity: 75%;
+}
+.inputss textarea::placeholder{
+  color: white!important;
+  opacity: 75%;
+}
+
+.inputss input{
+  border:solid 2px rgba(255, 255, 255, 0.452) !important;
+}
+.inputss textarea{
+  border:solid 2px rgba(255, 255, 255, 0.452) !important;
+}
+.inputss textarea:hover{
+  border:solid 2px #0baddc !important;
+}
+.inputss input:hover{
+  border:solid 2px #0baddc !important;
+}
+
+.footer{
+  background-color: #262936;
+}
+.footer button{
+  top: 5px;
+  right: 5px ;
+  bottom: 5px;
+}
+.footer input{
+  background-color: #1e202b !important;
+  border: none;
+}
+.footer input::placeholder{
+  color: white;
+  opacity: 50%;
+}
+.footer .social-links a {
+  background-color: #1e202b;
+  padding: 0.7rem;
+  margin: 0 1px;
+}
+
+.footer .social-links a.face {
+  background-color: #1e202b;
+  padding: 0.7rem 1rem;
+}
+.footer .social-links a.pinterest {
+  background-color: #1e202b;
+  padding: 0.7rem 0.9rem;
+}
+.footer .social-links a:hover {
+  background-color: #009ad8;
+  color: white !important;
+}
